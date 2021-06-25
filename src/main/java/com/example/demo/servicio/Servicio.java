@@ -45,5 +45,33 @@ public class Servicio implements ServicioI {
         return listaNoticias;
     }
 
-  
+    @Override
+    public NoticiasNasa datosNoticia1(NoticiasNasa noticias) {
+        return noticias = listaNoticias.get(0);
+    }
+
+    @Override
+    public NoticiasNasa datosNoticia2(NoticiasNasa noticias) {
+        return noticias = listaNoticias.get(1);
+    }
+
+    @Override
+    public NoticiasNasa datosNoticia3(NoticiasNasa noticias) {
+        return noticias = listaNoticias.get(2);
+    }
+
+    @Override
+    public NoticiasNasa datosNoticia4(NoticiasNasa noticias) {
+        return noticias = listaNoticias.get(3);
+    }
+
+    @Override
+    public NoticiasNasa datosNoticia5(NoticiasNasa noticias) {
+        return noticias = listaNoticias.get(4);
+    }
+
+    @Override
+    public NoticiasNasa datosNoticia6(NoticiasNasa noticias) {
+        return noticias = listaNoticias.get(5);
+    }
 }

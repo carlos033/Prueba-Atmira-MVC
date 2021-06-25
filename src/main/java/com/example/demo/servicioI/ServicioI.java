@@ -16,6 +16,16 @@ public interface ServicioI {
 
     public List<NoticiasNasa> obtenerDatos();
 
-    
+    public NoticiasNasa datosNoticia1(NoticiasNasa noticias);
+
+    public NoticiasNasa datosNoticia2(NoticiasNasa noticias);
+
+    public NoticiasNasa datosNoticia3(NoticiasNasa noticias);
+
+    public NoticiasNasa datosNoticia4(NoticiasNasa noticias);
+
+    public NoticiasNasa datosNoticia5(NoticiasNasa noticias);
+
+    public NoticiasNasa datosNoticia6(NoticiasNasa noticias);
 
 }
