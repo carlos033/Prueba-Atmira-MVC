@@ -1,0 +1,55 @@
+!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Add Ordenador</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    </head>
+    <body>
+        <div class="container my-5">
+            <h3> Add Employee</h3>
+            <div class="card">
+                <div class="card-body">
+                    <div class="col-md-10">
+                        <form action="#" th:action="@{/noticia1}" th:object="${NoticiasNasa}" method="get">
+                            <div class="row">
+                                <div class="form-group col-md-8">
+                                    <label for="fecha" class="col-form-label">Fecha</label> 
+                                    <a th:text="${NoticiasNasa.fecha}"></a>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <label for="titulo" class="col-form-label">Titulo</label> 
+                                    <a th:text="${NoticiasNasa.titulo}"></a>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <label for="explanation" class="col-form-label">Explicacion</label> 
+                                    <a th:text="${NoticiasNasa.explanation}"></a>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <label for="tipoDMedio" class="col-form-label">Tipo De Medio</label> 
+                                    <a th:text="${NoticiasNasa.tipoDMedio}"></a>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <label for="versionDelservicio" class="col-form-label">Version Del servicio</label> 
+                                    <a th:text="${NoticiasNasa.versionDelservicio}"></a>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <label for="url" class="col-form-label">Url</label> 
+                                    <a th:text="${NoticiasNasa.url}"></a>
+                                </div>
+                                <div class="col-md-6">
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
